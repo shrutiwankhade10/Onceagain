@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Hola.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Hola.Actn">
+        <methods>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- Hola.Actn -->
+      <class name="Hola.param">
+        <methods>
+          <include name="passit"/>
+        </methods>
+      </class> <!-- Hola.param -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

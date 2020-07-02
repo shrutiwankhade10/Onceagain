@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.305 s <<< FAILURE! - in TestSuite
+Hola.table.dateclick  Time elapsed: 25.833 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using id=datepicker
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-LOG2SSBM', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at Hola.table.dateclick(table.java:37)
+
+Hola.table.prac  Time elapsed: 5.759 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 25, Size: 25
+	at Hola.table.prac(table.java:25)
+
