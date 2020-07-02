@@ -19,6 +19,7 @@ public class Actn extends base {
 		//a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).build().perform();
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().sendKeys("shruti").doubleClick().build().perform();
 		Log.info("shruti");
+		Log.info("shruti");
 		
 		}
 	
@@ -26,6 +27,7 @@ public class Actn extends base {
 	public void abc() throws IOException {
 		driver=startDriver();
 		driver.get("https://www.amazon.in/");
+		Log.info("shruti");
 		Log.info("shruti");
 		
 	}
@@ -35,6 +37,7 @@ public class Actn extends base {
 		driver=startDriver();
 		driver.get("https://www.google.co.in/");
 		Log.info("wankhade");
+		Log.info("shruti");
 	}
 
 }
